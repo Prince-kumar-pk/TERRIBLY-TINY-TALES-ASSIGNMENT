@@ -5,7 +5,7 @@ var Data = {
     followers: "200",
     following: "525",
     designation: "SDE-I at Terribly Tiny Tales",
-    link: "https://www.instagram.com/prince_.kumar_7/",
+    link: "https://www.linkedin.com/in/prince--kr/",
     posts: [
         {
             header: "A changing World Order",
