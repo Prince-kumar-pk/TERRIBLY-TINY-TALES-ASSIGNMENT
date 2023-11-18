@@ -4,7 +4,7 @@ var Data = {
     profilepic: "https://media.licdn.com/dms/image/D4D03AQGrVF_qOzCXLw/profile-displayphoto-shrink_400_400/0/1679564204542?e=1705536000&v=beta&t=qLpN7m5wzSMNjvMMBFOXHc8HW46-XzsNKMpPKJTb8go",
     followers: "200",
     following: "525",
-    designation: "Co-founder & CEO at Terribly Tiny Tales",
+    designation: "SDE-I at Terribly Tiny Tales",
     link: "https://www.instagram.com/prince_.kumar_7/",
     posts: [
         {
