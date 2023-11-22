@@ -9,7 +9,7 @@ var Data = {
     posts: [
         {
             header: "A changing World Order",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum voluptatem maxime est ex. Et, est reiciendis! Veniam soluta adipisci pariatur a ab nobis rem tempore nostrum voluptatum quasi aliquam debitis, similique ipsam esse quae est? Adipisci tempora fuga repellendus?",
+            content: "The world is changing at a feverish pace. Friends,colleagues and everyone engaged in knowladge work are begining to sense this, including Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad hic totam cum, reiciendis modi? Ipsam illum reiciendis deserunt facere!", 
             tag: "tag",
             byname: "by someone",
             date: "November 21",

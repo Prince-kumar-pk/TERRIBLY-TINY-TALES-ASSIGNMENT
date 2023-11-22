@@ -7,12 +7,25 @@ import { orange } from '@mui/material/colors';
 
 
 const Posts = ({postData}) => {
+
+
+  const truncateText = (text, maxLength) => {
+    if (text.length <= maxLength) {
+      return text;
+    }
+    const truncatedText = text.substr(0, maxLength) + '...';
+    return truncatedText;
+  };
+
   const buttonStyle = {
     backgroundColor: orange[400], 
     color: '#fff', 
     width: '30px', 
     height: '30px',
   };
+
+  const truncatedContent = truncateText(postData.content, 130); 
+
   return (
     <div className='flex gap-2 flex-col h-auto border-0 border-b-2  border-gray-700 p-8 '>
       <div className="h-12 border-0 border-black flex justify-between">
@@ -24,7 +37,7 @@ const Posts = ({postData}) => {
         </p>
       </div>
       <div className="flex-1 border-0 border-red-700 flex">
-          <div className='border-0 border-red-700 self-center'> {postData.content} </div>
+          <div className='border-0 border-red-700 self-center'> {truncatedContent} </div>
       </div>
       <div className="h-12 border-0 border-black flex justify-between gap-8">
       <div className='border-0 border-black tablet:cuflex_3 shrink text-left mobiles:flex-1 self-center font-medium'>
